@@ -1,0 +1,96 @@
+body {
+  background-image: linear-gradient(
+    90deg,
+    rgb(220, 162, 111),
+    rgb(142, 139, 139),
+    rgb(229, 104, 62)
+  );
+}
+#survay {
+  width: 70%;
+  position: absolute;
+  left: 15%;
+  background-image: linear-gradient(
+    90deg,
+    rgb(229, 104, 62),
+    rgb(223, 217, 217),
+    rgb(220, 162, 111)
+  );
+  margin-top: 10px;
+}
+#title {
+  display: flex;
+  margin: 5px;
+  justify-content: center;
+}
+#form-div {
+  border: 1.5px solid gray;
+  border-radius: 10px;
+  background-color: hsla(0, 0%, 100%, 0.495);
+  margin: 30px;
+}
+.row {
+  display: flex;
+  margin-top: 30px;
+  font-size: 20px;
+}
+.col-name {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  padding: 10px 20px;
+}
+.col-name span {
+  color: red;
+}
+.col-value > input {
+  width: 300px;
+  height: 15px;
+  border-color: gray;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 15px;
+  margin: 5px;
+}
+.col-value > input[type="file"] {
+  width: 300px;
+  height: 30px;
+  font-size: large;
+  padding: 0px 10px;
+  align-content: center;
+}
+.col-value > select {
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 15px;
+  margin: 5px;
+  font-size: medium;
+}
+.col-multi {
+  height: auto;
+}
+.col-multi > input,
+label {
+  margin-top: 10px;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+}
+#btn-submit {
+  padding: 10px;
+  background-color: rgba(13, 23, 226, 0.953);
+  border: 1.5px solid rgba(13, 23, 226, 0.953);
+  border-radius: 5px;
+  margin: 20px 0px;
+  color: rgb(249, 249, 249);
+  display: inline-block;
+  align-items: center;
+  box-shadow: none;
+}
+#btn-submit:hover {
+  border: 1.5px solid gray;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <div id="survay">
+      <h1 id="title">SURVAY FORM</h1>
+
+      <form action="" id="form-div">
+
+        <div class="row">
+
+          <div class="col-name">
+            <span>*</span>Name :
+          </div>
+
+          <div class="col-value">
+            <input type="text" placeholder="Enter your name:" required>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-name">
+            <span>*</span>Email :
+          </div>
+          <div class="col-value">
+            <input type="email" placeholder="Enter your email:" required>
+          </div>
+
+        </div>
+        <div class="row">
+          <div class="col-name">
+            <span>*</span>Age :
+          </div>
+          <div class="col-value">
+            <input type="number" placeholder="Age:" required>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-name">
+            Id proof :
+          </div>
+          <div class="col-value">
+            <input type="file" placeholder="choose file:">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-name">
+            Which option best describes your current role?
+          </div>
+          <div class="col-value">
+            <select name="" id="">
+              <option value="" selected disabled>select</option>
+              <option value="">Student</option>
+              <option value="">Teacher</option>
+              <option value="">Trainee</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-name">
+            How likely is that you would recommend this <br>program to a firend?
+          </div>
+          <div class="col-multi">
+            <input type="radio" value="Definitely" name="option"><label for="">Definitely</label><br>
+            <input type="radio" value="Mabye" name="option"><label for="">Mabye</label><br>
+            <input type="radio" value="Not sure" name="option"><label for="">Not sure</label><br>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-name">
+            What do you like most here?
+          </div>
+          <div class="col-value">
+            <select name="" id="">
+              <option value="" selected disabled>select an option</option>
+              <option value="">Front end</option>
+              <option value="">Back end</option>
+              <option value="">Full stack</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-name">
+            Things that should be improved in the future <br>(Check all That applay)
+          </div>
+          <div class="col-multi">
+            <input type="checkbox" name="like-option"><label for="">Front end Project</label><br>
+            <input type="checkbox" name="like-option"><label for="">Back end Project</label><br>
+            <input type="checkbox" name="like-option"><label for="">Data Visualization</label><br>
+
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-name">
+            Any Comments or Suggestions?
+          </div>
+          <div class="col-value">
+            <textarea name="" id="" placeholder="Enter your comment heare..." cols="40" rows="5"></textarea>
+          </div>
+        </div>
+        <div class="btn">
+          <input id="btn-submit" type="submit" value="submit">
+        </div>
+      </form>
+    </div>
+
+  </body>
+
+</html>
